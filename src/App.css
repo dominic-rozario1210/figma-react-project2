@@ -1,0 +1,227 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body{
+  
+  font-family: Arial, sans-serif;
+}
+.container {
+  padding-top: 10px;
+  background: linear-gradient(
+    180deg,
+    #e8f6f1 0%,
+    #f7fbf9 55%,
+    #ffffff 100%
+  );
+}
+/* header */
+.header{
+  width: 80%;
+  height: auto;
+  margin:  10px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 40px;
+}
+.header-logo {
+  font-size: 32px;
+  font-weight: 600;
+  color: #54BD95;
+}
+.navbar{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  
+}
+.navbar a{
+  text-decoration: none;
+}
+.header-actions{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-actions button{
+  background-color: #54BD95;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+}
+/* hero */
+.hero{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 250px;
+}
+.hero-left{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.hero-left h1{
+  font-size: 50px;
+}
+.hero-left img{
+  width: 85%;
+}
+.hero-btn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero-btn button{
+  background-color: #54BD95;
+  border-radius: 15px;
+  padding: 12px 10px;
+  color: white;
+}
+.btn-demo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn-demo img{
+  width: 30px;
+}
+.hero-right{
+  position: relative;
+}
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+.hero-image img {
+  width: 340px;
+  height: 330px;
+}
+.send-card{
+  position: absolute;
+  top: 10px;
+  left: -50px;
+  width: 180px;
+  height: 60px;
+  background-color: #FFFFFF;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.send-card span {
+  color: #999;
+}
+.send-card p{
+  font-size: 14px;
+  margin-top: 5px;  
+}
+.send-card button{
+  background-color: #54BD95;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+
+}
+.send-card::after {
+  content: "";
+  position: absolute;
+
+  left: 10px;
+  right: 10px;
+  bottom: 8px;
+
+  height: 1px;
+  background: #ddd;
+}
+.income-card{
+  width: 138px;
+  height: 70px;
+  position: absolute;
+  bottom: 50px;
+  left: -20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+.income-card-price{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.income-card span {
+  font-size: 10px;
+  color: #999;
+}
+.credit-card{
+  position: absolute;
+  top: 130px;
+  left: 300px;
+}
+.credit-card img {
+  width: 146px;
+  height: 188px;
+}
+.purple-icon{
+  width: 30px;
+  height: 30px;
+  border: 2px solid;
+  position: absolute;
+  background: #4935b8;
+  border-radius: 7px;
+  color: white;
+  text-align: center;
+  top: 110px;
+  left: 10px;
+  transform: rotate(-10deg);
+}
+.orange-icon{
+  position: absolute;
+  bottom: 10px;
+  left: 300px;
+  background-color: rgb(237, 102, 125);
+  padding: 6px;
+  border-radius: 5px;
+  transform: rotate(10deg);
+  color: white;
+}
+.yellow-icon {
+  position: absolute;
+  top: 20px;
+  left: 380px;
+  background-color: rgb(239, 184, 46);
+  padding: 5px;
+  border-radius: 5px;
+  transform: rotate(10deg);
+  color: white;
+}
+/* collabs */
+.collabs{
+  width: 1076px;
+  margin: 70px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.collabs h2{
+   font-size: 25px;
+}
+.collabs-img{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.collabs-img img {
+  width: 161px;
+  height: 36px;
+}
