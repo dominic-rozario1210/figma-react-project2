@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Collabs from './components/Collabs'
 import Features from './components/Features'
 import Support from './components/Support'
+import Benefit from './components/Benefit'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Collabs/>
         <Support/>
         <Features/>
+        <Benefit/>
       </div>
     </>
   )

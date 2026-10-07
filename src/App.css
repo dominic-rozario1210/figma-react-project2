@@ -332,3 +332,56 @@ body{
 .right-inner-card p{
   color: #A6A6A6;
 }
+/* benefit */
+.benefit{
+  width: 85%;
+  margin: 35px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.benefit-left{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.benefit-left-content{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.benefit-left-content p{
+  color: #191A15;
+  font-size: 22px;
+}
+.benefit-right{
+  position: relative;
+}
+.benefit-right-image img {
+  width: 80%;
+  position: relative;
+}
+.benefit-saving-money{
+  position: absolute;
+  top: 20px;
+  left: -160px;
+}
+
+.benefit-transfer{
+  position: absolute;
+  bottom: 10px;
+  left: -110px;
+  gap: 10px;
+}
+
+.benefit-total-income{
+  position: absolute;
+  top: 120px;
+  left: 300px;
+}
+.benefit-green-box{
+  position: absolute;
+  top: 160px;
+  left: -60px;
+}
