@@ -6,16 +6,14 @@
 body{
   
   font-family: Arial, sans-serif;
-}
-.container {
-  padding-top: 10px;
   background: linear-gradient(
     180deg,
     #e8f6f1 0%,
-    #f7fbf9 55%,
+    #f7fbf9 60%,
     #ffffff 100%
   );
 }
+
 /* header */
 .header{
   width: 87%;
@@ -384,4 +382,119 @@ body{
   position: absolute;
   top: 160px;
   left: -60px;
+}
+/* pricing card */
+.pricing-container{
+  width: 90%;
+  height: auto;
+  margin: 70px 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.pricing-heading{
+  width: 400px;
+  text-align: center;
+}
+.pricing-btn{
+  display: flex;
+  padding: 10px 24px;
+  gap: 15px;
+  align-items: center;
+}
+.pricing-btn button{
+  background-color: #54BD95;
+  padding: 8px 16px;
+  border-radius: 5px ;
+  color: white;
+}
+.pricing-card{
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  justify-content: space-around;
+  
+ 
+}
+.price-free-business{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  gap: 20px;
+  width: 370px;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.price-details{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #edf2f7;
+  border-radius: 10px;
+}
+.price-details-user{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.signup-btn{
+  padding: 10px;
+  border-radius: 10px;
+  color: #54BD95;
+  font-size: 18px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.price-tag p{
+  position: absolute;
+  top: 100px;
+  left: 160px;
+}
+.price-tag-business p{
+  position: absolute;
+  top: 120px;
+  left: 150px;
+}
+.price-pro{
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 20px;
+  align-items: center;
+  width: 370px;
+  border-radius: 10px;
+  background-color: #54BD95;
+  position: relative;
+}
+.pro-btn{
+  background-color: #54BD95;
+  border-radius: 15px;
+  width: 80%;
+  margin: auto;
+  padding: 10px 10px;
+  color: white;
+  cursor: pointer;
+}
+.pro-save-btn{
+  padding: 8px;
+  border-radius: 10px;
+  color: #54BD95;
+}
+.price-pro h2,h4{
+  color: white;
+}
+.price-tag-pro p{
+  position: absolute;
+  top: 100px;
+  left: 165px;
+}
+.price-tag-pro{
+  color: white;
 }

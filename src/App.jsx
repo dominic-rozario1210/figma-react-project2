@@ -6,6 +6,7 @@ import Collabs from './components/Collabs'
 import Features from './components/Features'
 import Support from './components/Support'
 import Benefit from './components/Benefit'
+import PricingCard from './components/PricingCard'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Support/>
         <Features/>
         <Benefit/>
+        <PricingCard/>
       </div>
     </>
   )
